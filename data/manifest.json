@@ -1,0 +1,24 @@
+{
+  "source_id": "openstax_data_science",
+  "title": "Principles of Data Science",
+  "authors": "OpenStax",
+  "source_path_or_url": "https://openstax.org/details/books/principles-data-science",
+  "local_file": "starter/data/Principles-of-Data-Science-WEB.pdf",
+  "license_or_permission": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "accessed_at": "2026-11-13",
+  "unit_selection": {
+    "chapter": "Chapter 1: What Are Data and Data Science?",
+    "physical_page_start": 19,
+    "physical_page_end": 65,
+    "total_physical_pages_extracted": 47,
+    "minimum_required_pages": 30,
+    "criteria": "Only physical pages within the core content range (19 to 65) with char_count > 100 are counted. Front matter (covers, table of contents, preface pp. 1-18) and trailing blank pages are excluded."
+  },
+  "sections": [
+    {"section": "1.1", "name": "What Is Data Science?", "physical_pages": "19-21"},
+    {"section": "1.2", "name": "Applications of Data Science", "physical_pages": "22-25"},
+    {"section": "1.3", "name": "Data and Datasets", "physical_pages": "26-37"},
+    {"section": "1.4", "name": "Tools for Data Science", "physical_pages": "38-39"},
+    {"section": "1.5", "name": "Hands-on Data Science with Python", "physical_pages": "40-65"}
+  ]
+}

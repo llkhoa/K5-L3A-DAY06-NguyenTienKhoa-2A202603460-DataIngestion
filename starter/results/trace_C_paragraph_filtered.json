@@ -1,0 +1,1602 @@
+[
+  {
+    "question_id": "dev_01",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "ee2f7b034183fdc28bfd557d",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 19,
+        "text": "that you can practice the more advanced data\nscience concepts covered in future chapters.\n1.1 What Is Data Science?\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 1.1.1 Describe the goals of data science.\n• 1.1.2 Explain the data science cycle and goals of each step in the cycle.\n• 1.1.3 Explain the role of data management in the data science process.\nData science is a field of study that investigates how to collect, manage, and analyze data of all types in order\nto retrieve meaningful information. Although we will describe data in more detail in Data and Datasets, you\ncan consider data to be any pieces of evidence or observations that can be analyzed to provide some insights.\nWhat Are Data and Data Science?\n1",
+        "metadata": {
+          "page": 19,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 1744,
+          "char_count": 1744,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 19,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.12902808189391468,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "859af49329c3388531ddee59",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 36,
+        "text": "44 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 36,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1070,
+          "char_count": 1070,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 36,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.13123035430907581,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "0c206ec007c134c479729ae6",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 54,
+        "text": "44 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 54,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 1070,
+          "char_count": 1070,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 54,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.13123035430907581,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_02",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "b1e8bc1c13c80beb0854d278",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 20,
+        "text": "In its earliest days, the work of data science was spread across multiple disciplines, including statistics,\nmathematics, computer science, and social science. It was commonly believed that the job of data collection,\nmanagement, and analysis would be carried out by different types of experts, with each job independent of\none another. To be more specific, data collection was considered to be the province of so-called domain\nexperts (e.g., doctors for medical data, psychologists for psychological data, business analysts for sales,\nlogistic, and marketing data, etc.) as they had a full context of the data; data management was for computer\nscientists/engineers as they knew how to store and process data in computing systems (e.g., a single\ncomputer, a server, a data warehouse); and data analysis was for statisticians and mathematicians as they\nknew how to derive some meaningful insights from data. Technological advancement brought about the\nproliferation of data, muddying the boundaries be",
+        "metadata": {
+          "page": 20,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 1000,
+          "char_count": 2795,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 20,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1157264044447881,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "7749d5242cb8d0a23e3b67fb",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 26,
+        "text": "ct field in the early 2000s with\nthe proliferation of digital data and advances in computing power and technology. It gained significant\nmomentum and recognition around the mid to late 2000s with the rise of big data and the need for\nsophisticated techniques to analyze and derive insights from large and complex datasets. Its evolution since\nthen has been rapid, and as we can see from the previous discussion, it is quickly becoming a cornerstone of\nmany industries and domains.\nData, however, is not new! Humans have been collecting data and generating datasets from the beginning of\n16 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 26,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3657,
+          "char_count": 3657,
+          "char_start": 3000,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 26,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19683436193056558,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "cc36ab84c690b80e7bc97606",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "transaction is fraudulent in real time.\nMultiple tech companies, such as IBM and Amazon Web Services, offer their own fraud detection solutions to\ntheir corporate clients. (For more information, see this online resource on Fraud Detection through Data\nAnalytics (https://openstax.org/r/iabac).)\nData Science in Engineering and Science\nVarious fields of engineering and science also benefit from data science. Internet of Things (IoT) is a good\nexample of a new technology paradigm that has benefited from data science. Internet of Things (IoT)\ndescribes the network of multiple objects interacting with each other through the Internet. Data science plays\na crucial role in these interactions since behaviors of the objects in a network are often triggered by data\ncollected by another object in the network. For example, a smart doorbell or camera allows us to see a live\nstream on our phone and alerts us to any unusual activity.\nIn addition, weather forecasting has always been a data-driven task.",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 4000,
+          "char_count": 4807,
+          "char_start": 3000,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.20733945325973768,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_03",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "2d17fcd423d40e463d1dc1cc",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 21,
+        "text": "Figure 1.3 The Data Science Cycle\nAlthough data collection and preparation may sound like simple tasks compared to the more important work\nof analysis, they are actually the most time- and effort-consuming steps in the data science cycle. According to\na survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data\ncollection and cleaning, while data analysis and communication take about a quarter to a third of the time\neach, depending on the job.\nProblem Definition, Data Collection, and Data Preparation\nThe first step in the data science cycle is a precise definition of the problem statement to establish clear\nobjectives for the goal and scope of the data analysis project. Once the problem has been well defined, the\ndata must be generated and collected. Data collection is the systematic process of gathering information on\nvariables of interest. Data is often collected purposefully by domain experts to find answers to predefined\nproblems. One exampl",
+        "metadata": {
+          "page": 21,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 1000,
+          "char_count": 3784,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 21,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1398792266845703,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "2dc8313d3dca1a2911f022e2",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 20,
+        "text": "in\nthe “traditional” way, bringing patients into a laboratory and taking vital signs regularly over a period of time\ntakes a lot of time and effort. A smartphone application is a more efficient and productive method, from a data\ncollection perspective.\nData science tasks are often described as a process, and this section provides an overview for each step of that\nprocess.\nThe Data Science Cycle\nData science tasks follow a process, called the data science cycle, which includes problem definition, then\ndata collection, preparation, analysis, and reporting, as illustrated in Figure 1.3. See this animation about data\nscience (https://openstax.org/r/youtube), which describes the data science cycle in much the same way.\n10 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 20,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 2795,
+          "char_count": 2795,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 20,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16948246955871582,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "ee2f7b034183fdc28bfd557d",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 19,
+        "text": "that you can practice the more advanced data\nscience concepts covered in future chapters.\n1.1 What Is Data Science?\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 1.1.1 Describe the goals of data science.\n• 1.1.2 Explain the data science cycle and goals of each step in the cycle.\n• 1.1.3 Explain the role of data management in the data science process.\nData science is a field of study that investigates how to collect, manage, and analyze data of all types in order\nto retrieve meaningful information. Although we will describe data in more detail in Data and Datasets, you\ncan consider data to be any pieces of evidence or observations that can be analyzed to provide some insights.\nWhat Are Data and Data Science?\n1",
+        "metadata": {
+          "page": 19,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 1744,
+          "char_count": 1744,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 19,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.18254213437186728,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_04",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "2d8c8a480cf3d7b8460dde4f",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "d ensured that most items were warehoused and shipped within the same region; this\nallowed the company to reduce the shipping time and cost. As of 2023, more than 76% of orders were shipped\nfrom within the customer’s region, and items in same-day shipping facilities could be made ready to put on a\ndelivery truck in just 11 minutes (Herrington, 2023). Amazon also utilizes machine learning algorithms to\npredict the demand for items in each region and have the highest-demand items available in advance at the\nfulfillment center of the corresponding region. This predictive strategy has helped Amazon reduce the delivery\ntime for each product and extend the item selections for two-day shipping (Herrington, 2023).\nData science is utilized extensively in finance as well. Detecting and managing fraudulent transactions is now\ndone by automated machine learning algorithms (IABAC, 2023). Based on the customer data and the patterns\nof past fraudulent activities, an algorithm can determine whether a",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 3000,
+          "char_count": 4807,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1394326090812683,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "2764555fffdaca35b79a33cd",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "rances (Hays, 2004). Among other insights, the executives discovered that\nstrawberry Pop-Tart sales increased by about sevenfold during that time. As a result, in the days before\nHurricane Frances, Walmart shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path (Hays,\n2004). The analysis also provided insights on how many checkout associates to assign at different times of the\nday, where to place popular products, and many other sales and product details. In addition, the company has\nlaunched social media analytics efforts to investigate hot keywords on social media and promptly make related\nproducts available (ProjectPro, 2015).\nAmazon provides another good example. Ever since it launched its Prime membership service, Amazon has\nfocused on how to minimize delivery time and cost. Like Walmart, it started by analyzing consumer patterns\nand was able to place products close to customers. To do so, Amazon first divided the United States into eight\ngeographic regions an",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 2000,
+          "char_count": 4807,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19287857988114854,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "0967bcb886d5e1820708c017",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "Retail giant Walmart is known for using business analytics to improve the company’s bottom line. Walmart\ncollects multiple petabytes (1 petabyte = 1,024 terabytes) of unstructured data every hour from millions of\ncustomers (commonly referred to as “big data”); as of 2024, Walmart’s customer data included roughly 255\nmillion weekly customer visits (Statista, 2024). Walmart uses this big data to investigate consumer patterns\nand adjust its inventories. Such analysis helps the company avoid overstocking or understocking and resulted\nin an estimated online sales increase of between 10% and 15%, translating to an extra $1 billion in revenue\n(ProjectPro, 2015). One often-reported example includes the predictive technology Walmart used to prepare\nfor Hurricane Frances in 2004. A week before the hurricane’s arrival, staff were asked to look back at their data\non sales during Hurricane Charley, which hit several weeks earlier, and then come up with some forecasts\nabout product demand ahead of F",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1000,
+          "char_count": 4807,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.21701030629811702,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_05",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "cc36ab84c690b80e7bc97606",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "transaction is fraudulent in real time.\nMultiple tech companies, such as IBM and Amazon Web Services, offer their own fraud detection solutions to\ntheir corporate clients. (For more information, see this online resource on Fraud Detection through Data\nAnalytics (https://openstax.org/r/iabac).)\nData Science in Engineering and Science\nVarious fields of engineering and science also benefit from data science. Internet of Things (IoT) is a good\nexample of a new technology paradigm that has benefited from data science. Internet of Things (IoT)\ndescribes the network of multiple objects interacting with each other through the Internet. Data science plays\na crucial role in these interactions since behaviors of the objects in a network are often triggered by data\ncollected by another object in the network. For example, a smart doorbell or camera allows us to see a live\nstream on our phone and alerts us to any unusual activity.\nIn addition, weather forecasting has always been a data-driven task.",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 4000,
+          "char_count": 4807,
+          "char_start": 3000,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.18595383334709625,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "9b746b70e0e146278b2fe63c",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 44,
+        "text": "nsible Markup Language (XML) format of a dataset with which uses tags\nGoogle Colaboratory (Colab) software for editing and running Jupyter Notebook files\nGoogle Sheets a spreadsheet program with a graphical user interface developed by Google to help with the\nmanipulation and analysis of data\ninformation some high-level insights that are compiled from data\nInternet of Things (IoT) the network of multiple objects interacting with each other through the Internet\nitem an element that makes up a dataset; also referred to as an entry and an instance\nJavaScript Object Notation (JSON) format of a dataset that follows the syntax of the JavaScript\nprogramming language\nJupyter Notebook a web-based document that helps users run Python programs more interactively\nnominal data data whose values do not include any ordering notion\nnumeric data data that are represented in numbers and indicate measurable quantities\nordinal data data whose values include an ordering notion\nPandas a Python library specia",
+        "metadata": {
+          "page": 44,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 3000,
+          "char_count": 3586,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 44,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19418971573174404,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "0469db908216537f7f417314",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 62,
+        "text": "nsible Markup Language (XML) format of a dataset with which uses tags\nGoogle Colaboratory (Colab) software for editing and running Jupyter Notebook files\nGoogle Sheets a spreadsheet program with a graphical user interface developed by Google to help with the\nmanipulation and analysis of data\ninformation some high-level insights that are compiled from data\nInternet of Things (IoT) the network of multiple objects interacting with each other through the Internet\nitem an element that makes up a dataset; also referred to as an entry and an instance\nJavaScript Object Notation (JSON) format of a dataset that follows the syntax of the JavaScript\nprogramming language\nJupyter Notebook a web-based document that helps users run Python programs more interactively\nnominal data data whose values do not include any ordering notion\nnumeric data data that are represented in numbers and indicate measurable quantities\nordinal data data whose values include an ordering notion\nPandas a Python library specia",
+        "metadata": {
+          "page": 62,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 3000,
+          "char_count": 3586,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 62,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19418971573174404,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_06",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "bcffacaca6b42f3aef5fe9ca",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 24,
+        "text": "as to a parking lot, a building, or a street of lights. For example, the\ncity of San Diego installed thousands of sensors on the city streets to control the streetlights using data and\nsmart technology. The sensors measure traffic, parking occupancy, humidity, and temperature and are able to\nturn on the lights only when necessary (Van Bocxlaer, 2020). New York City has adopted smart garbage bins\nthat monitor the amount of garbage in a bin, allowing garbage collection companies to route their collection\nefforts more efficiently (Van Bocxlaer, 2020).\nEXPLORING FURTHER\nSensor Networks to Monitor Energy Consumption\nSee how Songdo (https://openstax.org/r/youtube4) monitors energy consumption and safety with sensor\nnetworks.\nData Science in Education\nData science also influences education. Traditional instruction, especially in higher education, has been\nprovided in a one-size-fits-all form, such as many students listening to a single instructor’s lecture in a\nclassroom. This makes it diffic",
+        "metadata": {
+          "page": 24,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 2000,
+          "char_count": 3431,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 24,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17376778047584795,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "68ad81df1fe7c15c448396ad",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 24,
+        "text": "consultant, Ag Automation, has partnered with Hitachi to offer a solution that both automates data collection\nand remotely monitors and controls irrigation for the best efficiency (Hitachi, 2023).\nEXPLORING FURTHER\nUsing AI for Irrigation Control\nSee this Ag Automation video (https://openstax.org/r/youtube128) demonstrating the use of data collection\nfor controlling irrigation.\nData Science in Public Policy\nSmart cities are among the most representative examples of the use of data science in public policy. Multiple\ncities around the world, including Masdar City in the United Arab Emirates and Songdo in South Korea, have\ninstalled thousands of data-collecting sensors used to optimize their energy consumption. The technology is\nnot perfect, and smart cities may not yet live up to their full potential, but many corporations and companies\nare pursuing the goal of developing smart cities more broadly (Clewlow, 2024). The notion of a smart city has\nalso been applied on a smaller scale, such",
+        "metadata": {
+          "page": 24,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1000,
+          "char_count": 3431,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 24,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1804097187274848,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "b41af025b7d7f9156bdbb2c7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "Weather analysts collect different\nmeasures of the weather such as temperature and humidity and then make their best estimate for the\nweather in the future. Data science has made weather forecasting more reliable by adopting more\nsophisticated prediction methods such as time-series analysis, artificial intelligence (AI), and machine learning\n(covered in Time Series and Forecasting, Decision-Making Using Machine Learning Basics, and Deep Learning\nand AI Basics). Such advancement in weather forecasting has also enabled engineers and scientists to predict\nsome natural disasters such as flood or wildfire and has enabled precision farming, with which agricultural\nengineers can identify an optimal time window to plant, water, and harvest crops. For example, an agronomy\n1.2 • Data Science in Practice 13",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 4807,
+          "char_count": 4807,
+          "char_start": 4000,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.23573653484961044,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_07",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "9dc2472a823bb469c94691f9",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "group of doctors’ experience and intuition; this new movement allows health care professionals to make\ndecisions that are more data-driven. Data-driven decisions became more feasible thanks to all the personal\ndata collected through personal gadgets—smartphones, smart watches, and smart bands. Such devices collect\ndaily health/activity records, and this in turn helps health care professionals better capture each patient’s\nsituation. All this work will enable patients to receive more accurate diagnoses along with more personalized\ntreatment regimens in the long run.\nThe Precision Medicine Initiative (https://openstax.org/r/obamawhitehouse) is a long-term research endeavor\ncarried out by the National Institutes of Health (NIH) and other research centers, with the goal of better\nunderstanding how a person's genetics, environment, and lifestyle can help determine the best approach to\nprevent or treat disease. The initiative aims to look at as much data as possible to care for a patient’s h",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1000,
+          "char_count": 3615,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.12663519382476807,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "86f8cd1e04f83012ed51bb70",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "ealth\nmore proactively. For example, the initiative includes genome sequencing to look for certain mutations that\nindicate a higher risk of cancer or other diseases.\nAnother application of data science in health focuses on lowering the cost of health care services. Using\nhistorical records of patients’ symptoms and prescription, a chatbot that is powered by artificial intelligence\ncan provide automated health care advice. This will reduce the need for patients to see a pharmacist or doctor,\nwhich in turn improves health care accessibility for those who are in greater need.\nEXPLORING FURTHER\nBig Data In Health Care\nThe 2015 launch of the National Institutes of Health Precision Medicine Initiative was documented in One\nWoman’s Quest to Cure Her Fatal Brain Disease (https://openstax.org/r/youtubevk). “Promise of Precision\nMedicine” signaled a new approach to health care in the United States—one heavily reliant on big data.\nData Science in Sports and Entertainment\nData science is prevalent",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 2000,
+          "char_count": 3615,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15778625011444092,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "c6a6bbc9acc49c33c64e9f58",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 24,
+        "text": "ten their goal is to offer more accurate\ndiagnosis and treatment using predictive analytics—statistical techniques, algorithms, and machine learning\nthat analyze historical data and make predictions about future events. Medical diagnosis and prescription\npractices have traditionally been based on a patient’s verbal description of symptoms and a doctor’s or a\n14 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 24,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 3431,
+          "char_count": 3431,
+          "char_start": 3000,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 24,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19858438960220615,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_08",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "2d0e5f9677ab458a3bc929ac",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 27,
+        "text": "time. This started in the Stone Age when people carved some shapes and pictures, called petroglyphs, on rock.\nThe petroglyphs provide insights on how animals looked and how they carried out their daily life, which is\nvaluable “data” for us. Ancient Egyptians invented a first form of paper—papyrus—in order to journal their\ndata. Papyrus also made it easier to store data in bulk, such as listing inventories, noting financial transactions,\nand recording a story for future generations.\nData\n“Data” is the plural of the Latin word “datum,” which translates as something that is given or used and is often\nused to mean a single piece of information or a single point of reference in a dataset. When you hear the word\n“data,” you may think of some sort of “numbers.” It is true that numbers are usually considered data, but there\nare many other forms of data all around us. Anything that we can analyze to compile information—high-level\ninsights—is considered data.\nSuppose you are debating whether to",
+        "metadata": {
+          "page": 27,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1000,
+          "char_count": 2518,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 27,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17228057054049617,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "e209cdd646139176a85204fd",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 21,
+        "text": "e is data on customer responses to a product satisfaction survey. These survey\nquestions will likely be crafted by the product sales and marketing representatives, who likely have a specific\nplan for how they wish to use the response data once it is collected.\nNot all data is generated this purposefully, though. A lot of data around our daily life is simply a by-product of\nour activity. These by-products are kept as data because they could be used by others to find some helpful\ninsights later. One example is our web search histories. We use a web search engine like Google to search for\ninformation about our interests, and such activity leaves a history of the search text we used on the Google\nserver. Google employees can utilize the records of numerous Google users in order to analyze common\nsearch patterns, present accurate search results, and potentially, to display relatable advertisements back to\nthe searchers.\nOften the collected data is not in an optimal form for analysis. It nee",
+        "metadata": {
+          "page": 21,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 2000,
+          "char_count": 3784,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 21,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.22388927794161517,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "7c379982ee94070db73882c0",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 19,
+        "text": "Figure 1.1 Petroglyphs are one of the earliest types of data generated by humanity, providing vital information about the daily life of\nthe people who created them. (credit: modification of work “Indian petroglyphs (~100 B.C. to ~1540 A.D.) (Newspaper Rock,\nsoutheastern Utah, USA) 24” by James St. John/Flickr, CC BY 2.0)\nChapter Outline\n1.1 What Is Data Science?\n1.2 Data Science in Practice\n1.3 Data and Datasets\n1.4 Using Technology for Data Science\n1.5 Data Science with Python\nIntroduction\nMany of us use the terms “data” and “data science,” but not necessarily with a lot of precision. This chapter will\ndefine data science terminology and apply the terms in multiple fields. The chapter will also briefly introduce\nthe types of technology (such as statistical software, spreadsheets, and programming languages) that data\nscientists use to perform their work and will then take a deeper dive into the use of Python for data analysis.\nThe chapter should help you build a technical foundation so",
+        "metadata": {
+          "page": 19,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 1000,
+          "char_count": 1744,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 19,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.23428864683441064,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_09",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "00273bedbd2768b10639f056",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 28,
+        "text": "data comes in various types. Some data are quantitative, which means that they are\nmeasured and expressed using numbers. Quantitative data deals with quantities and amounts and is usually\nanalyzed using statistical methods. Examples include numerical measurements like height, weight,\ntemperature, heart rate, and sales figures. Qualitative data are non-numerical data that generally describe\nsubjective attributes or characteristics and are analyzed using methods such as thematic analysis or content\nanalysis. Examples include descriptions, observations, interviews, and open-ended survey responses (as we’ll\nsee in Survey Design and Implementation) that address unquantifiable details (e.g., photos, posts on Reddit).\nThe data types often dictate methods for data analysis, so it is important to be able to identify a type of data.\nThus, this section will take a further dive into types of data.\nLet’s revisit our previous example about deciding whether to take a certain course next semester. In",
+        "metadata": {
+          "page": 28,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 2000,
+          "char_count": 3673,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 28,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15590262413024902,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "58687615e643f91793208e30",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 28,
+        "text": "that\nexample, we referred to four pieces of data. They are encoded in different types such as numbers, words, and\nsymbols.\n1. The semester the course was offered—Fall 2020, Spring 2021, …, Fall 2022, Spring 2023\n2. The instructor—A and B\n3. The class size—100, 50, 120, 40, 110, 50\n4. The course rating—“Not recommended at all,” …, “Highly recommended”\nThere are two primary types of quantitative data—numeric and categorical—and each of these can be divided\ninto a few subtypes. Numeric data is represented in numbers that indicate measurable quantities. It may be\nfollowed by some symbols to indicate units. Numeric data is further divided into continuous data and discrete\ndata. With continuous data, the values can be any number. In other words, a value is chosen from an infinite\nset of numbers. With discrete data, the values follow a specific precision, which makes the set of possible\nvalues finite.\nFrom the previous example, the class size 100, 150, etc. are numbers with the implied unit",
+        "metadata": {
+          "page": 28,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3000,
+          "char_count": 3673,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 28,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1940847635269165,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "3a05f83c0ee363457d48b0a0",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 28,
+        "text": "EXAMPLE 1.1\nProblem\nSuppose you want to decide whether or not to put on a jacket today. You research the highest\ntemperatures in the past five days and determine whether you needed a jacket on each day. In this\nscenario, what data are you using? And what information are you trying to derive?\nSolution\nTemperature readings and whether you needed a jacket on each of the past five days are two kinds of data\nyou are referring to. Again, they do not indicate anything related to wearing a jacket today. They are simply\nfive pairs of numbers (temperature) and yes/no (whether you needed a jacket) records, with each pair\nrepresenting a day. Using these data, you are deriving information that you can analyze to help you decide\nwhether to wear a jacket today.\nTypes of Data\nThe previous sections talked about how much our daily life is surrounded by data, how much our daily life\nitself produces new data, and how often we make data-driven decisions without even noticing it. You might\nhave noticed that",
+        "metadata": {
+          "page": 28,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1000,
+          "char_count": 3673,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 28,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.20354371049739517,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_10",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "c4f6fcc8f6760ba943baeec1",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 29,
+        "text": "a are\nrepresented in symbols (Yes/No), and the values are chosen from the finite set of those symbols. They are\nalso nominal since Yes/No does not have ordering to follow.\nDatasets\nA dataset is a collection of observations or data entities organized for analysis and interpretation, as shown in\nTable 1.1. Many datasets can be represented as a table where each row indicates a unique data entity and each\ncolumn defines the structure of the entities.\nNotice that the dataset we used in Table 1.1 has six entities (also referred to as items, entries, or instances),\ndistinguished by semester. Each entity is defined by a combination of four attributes or characteristics (also\nknown as features or variables)—Semester, Instructor, Class Size, and Rating. A combination of features\ncharacterizes an entry of a dataset.\nAlthough the actual values of the attributes are different across entities, note that all entities have values for\nthe same four attributes, which makes them a structured dataset. As",
+        "metadata": {
+          "page": 29,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3000,
+          "char_count": 3543,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 29,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1596317792158244,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "db4ce5369eab66a3fe67fe7a",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 29,
+        "text": "a structured dataset, these items can be\nlisted as a table where each item is listed along the rows of the table.\nBy contrast, an unstructured dataset is one that lacks a predefined or organized data model. While\nstructured datasets are organized in a tabular format with clearly defined fields and relationships,\nunstructured data lacks a fixed schema. Unstructured data is often in the form of text, images, videos, audio\nrecordings, or other content where the information doesn't fit neatly into rows and columns.\n1.3 • Data and Datasets 19",
+        "metadata": {
+          "page": 29,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3543,
+          "char_count": 3543,
+          "char_start": 3000,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 29,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17202249073579923,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "1ebb995ddff73ef5f372e868",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 30,
+        "text": "ell of a table.\nEXAMPLE 1.4\nProblem\nHow many entries and attributes does the dataset in the previous example have?\nSolution\nThe dataset has four entries, each of which is identified with a specific date (Oct. 10, Oct. 11, Oct. 12, Oct.\n13). The dataset has three attributes—Date, Temperature, Needed a Jacket.\nEXAMPLE 1.5\nProblem\nA dataset has a list of keywords that were searched on a web search engine in the past week. Is this dataset\nstructured or unstructured?\nSolution\nThe dataset is an unstructured dataset since each entry in the dataset can be a freeform text: a single word,\nmultiple words, or even multiple sentences.\n20 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 30,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1700,
+          "char_count": 1700,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 30,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17387240088746392,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_11",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "e790023adbb78a893179e4c7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 33,
+        "text": "d name the generated\nCSV file as the name of the corresponding tab. For example, if you have generated a CSV file for the first tab\nof “ch1-data.xlsx,” make sure the generated file name is “ch1-courseEvaluations.csv.” This will prevent future\nconfusion when following instructions in this textbook.\nJavaScript Object Notation (JSON)\nJSON uses the syntax of a programming language named JavaScript. Specifically, it follows JavaScript’s object\nsyntax. Don’t worry, though! You do not need to know JavaScript to understand the JSON format.\nFigure 1.7 provides an example of the JSON representation of the same dataset depicted in Figure 1.6.\nFigure 1.7 CourseEvaluations.json Opened with Visual Studio Code\nNotice that the JSON format starts and ends with a pair of curly braces ({}). Inside, there are multiple pairs of\n1.3 • Data and Datasets 23",
+        "metadata": {
+          "page": 33,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1845,
+          "char_count": 1845,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 33,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17716488770141825,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "82280df37f5467760dede2d7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 21,
+        "text": "or complex\nanalyses. In these instances, data scientists will often turn to a programming language such as Python, R, or\nSPSS.\nProgramming Languages\nA programming language is a formal language that consists of a set of instructions or commands used to\ncommunicate with a computer and to instruct it to perform specific tasks that may include data manipulation,\ncomputation, and input/output operations. Programming languages allow developers to write algorithms,\ncreate software applications, and automate tasks and are better suited than spreadsheet programs to handle\ncomplex analyses.\nPython and R are two of the most commonly used programming languages today. Both are open-source\nprogramming languages. While Python started as a general-purpose language that covers various types of\ntasks (e.g., numerical computation, data analysis, image processing, and web development), R is more\nspecifically designed for statistical computing and graphics. Both use simple syntax compared to conventional",
+        "metadata": {
+          "page": 21,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 2000,
+          "char_count": 3679,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 21,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17992830276489258,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "62cf3e7f7efaf4abd485ba84",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 39,
+        "text": "or complex\nanalyses. In these instances, data scientists will often turn to a programming language such as Python, R, or\nSPSS.\nProgramming Languages\nA programming language is a formal language that consists of a set of instructions or commands used to\ncommunicate with a computer and to instruct it to perform specific tasks that may include data manipulation,\ncomputation, and input/output operations. Programming languages allow developers to write algorithms,\ncreate software applications, and automate tasks and are better suited than spreadsheet programs to handle\ncomplex analyses.\nPython and R are two of the most commonly used programming languages today. Both are open-source\nprogramming languages. While Python started as a general-purpose language that covers various types of\ntasks (e.g., numerical computation, data analysis, image processing, and web development), R is more\nspecifically designed for statistical computing and graphics. Both use simple syntax compared to conventional",
+        "metadata": {
+          "page": 39,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 2000,
+          "char_count": 3679,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 39,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17992836236953735,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_12",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "3c5311feeff3640b53d2af3e",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 31,
+        "text": "data between a user and a server, and XML is the most suitable for complex dataset\ndue to its hierarchy-friendly nature. Since they all store data as plain texts, you can open them using any\ntypical text editors such as Notepad, Visual Studio Code, Sublime Text, or VI editor.\nTable 1.3 summarizes the advantages and disadvantages of CSV, JSON, and XML dataset formats. Each of these\nis described in more detail below.\nDataset Format Pros Cons Typical Use\nCSV • Simple • Difficult to add\nmetadata\n• Difficult to parse if\nthere are special\ncharacters\n• Flat structure\n• Tabular data\nJSON • Simple\n• Compatible with\nmany languages\n• Easy to parse\n• Difficult to add\nmetadata\n• Cannot leave\ncomments\n• Data that needs to\nbe exchanged\nbetween a user and\na server\nXML • Structured (so more\nreadable)\n• Possible to add\nmetadata\n• Verbose\n• Complex structure\nwith tags\n• Hierarchical data\nstructures\nTable 1.3 Summary of the CSV, JSON, and XML formats\n1.3 • Data and Datasets 21",
+        "metadata": {
+          "page": 31,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1972,
+          "char_count": 1972,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 31,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1611386287551706,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "0fdd3b7c24c046ffa223b459",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 31,
+        "text": "EXAMPLE 1.6\nProblem\nThe dataset from the previous example is processed so that now each search record is summarized as up to\nthree words, along with the timestamp (i.e., when the search occurred). Is this dataset structured or\nunstructured?\nSolution\nIt is a structured dataset since every entry of this dataset is in the same structure with two attributes: a\nshort keyword along with the timestamp.\nDataset Formats and Structures (CSV, JSON, XML)\nDatasets can be stored in different formats, and it’s important to be able to recognize the most commonly\nused formats. This section covers three of the most often used formats for structured datasets—comma-\nseparated values (CSV), JavaScript Object Notation (JSON), and Extensible Markup Language (XML). While\nCSV is the most intuitive way of encoding a tabular dataset, much of the data we would collect from the web\n(e.g., websites, mobile applications) is stored in the JSON or XML format. The reason is that JSON is the most\nsuitable for exchanging",
+        "metadata": {
+          "page": 31,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1000,
+          "char_count": 1972,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 31,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16297564396189546,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "aa9ee4fcf4f697052d2dcead",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 44,
+        "text": "Key Terms\nattribute characteristic or feature that defines an item in a dataset\ncategorical data data that is represented in different forms and do not indicate measurable quantities\ncell a block or rectangle on a table that is specified with a combination of a row number and a column\nnumber\ncomma-separated values (CSV) format of a dataset in which each item takes up a single line and its values\nare separated by commas (“,”)\ncontinuous data data whose value is chosen from an infinite set of numbers\ndata anything that we can analyze to compile some high-level insights\ndata analysis the process of examining and interpreting raw data to uncover patterns, discover meaningful\ninsights, and make informed decisions\ndata collection the systematic process of gathering information on variables of interest\ndata preparation (data processing) the second step within the data science cycle; converts the collected\ndata into an optimal form for analysis\ndata reporting the presentation of data in a way",
+        "metadata": {
+          "page": 44,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 1000,
+          "char_count": 3586,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 44,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16548514366149902,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_13",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "01dcde38c54b47dcb0ffd3c2",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 20,
+        "text": "tegrates well\nwith other Office products. Excel was first released by Microsoft in 1987, and it has become one of the most\npopular choices for loading and analyzing tabular data in a spreadsheet format. You are likely to have used\nExcel in some form or other —perhaps to organize the possible roommate combinations in your dorm room or\n28 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 20,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 2406,
+          "char_count": 2406,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 20,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15059881504781003,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "bf9bd99b3c51c6f2d4116996",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 38,
+        "text": "tegrates well\nwith other Office products. Excel was first released by Microsoft in 1987, and it has become one of the most\npopular choices for loading and analyzing tabular data in a spreadsheet format. You are likely to have used\nExcel in some form or other —perhaps to organize the possible roommate combinations in your dorm room or\n28 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 38,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 2406,
+          "char_count": 2406,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 38,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15059882402420044,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "9101196e372f4189aa023904",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 39,
+        "text": "iew of R Studio for Data Science. If you want to\nlearn how to use R, you may want to practice with RStudio (https://openstax.org/r/posit1), a commonly used\nsoftware application to edit/run R programs.\nPYTHON IN EXCEL\nMicrosoft recently launched a new feature for Excel named “Python in Excel.” This feature allows a user to\nrun Python code to analyze data directly in Excel. This textbook does not cover this feature, but instead\npresents Python separately, as it is also crucial for you to know how to use each tool in its more commonly\nused environment. If interested, refer to Microsoft’s announcement (https://openstax.org/r/youtu).\n1.4 • Using Technology for Data Science 29",
+        "metadata": {
+          "page": 39,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 3679,
+          "char_count": 3679,
+          "char_start": 3000,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 39,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.225225567817688,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_14",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "82280df37f5467760dede2d7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 21,
+        "text": "or complex\nanalyses. In these instances, data scientists will often turn to a programming language such as Python, R, or\nSPSS.\nProgramming Languages\nA programming language is a formal language that consists of a set of instructions or commands used to\ncommunicate with a computer and to instruct it to perform specific tasks that may include data manipulation,\ncomputation, and input/output operations. Programming languages allow developers to write algorithms,\ncreate software applications, and automate tasks and are better suited than spreadsheet programs to handle\ncomplex analyses.\nPython and R are two of the most commonly used programming languages today. Both are open-source\nprogramming languages. While Python started as a general-purpose language that covers various types of\ntasks (e.g., numerical computation, data analysis, image processing, and web development), R is more\nspecifically designed for statistical computing and graphics. Both use simple syntax compared to conventional",
+        "metadata": {
+          "page": 21,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 2000,
+          "char_count": 3679,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 21,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1552818761849959,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "62cf3e7f7efaf4abd485ba84",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 39,
+        "text": "or complex\nanalyses. In these instances, data scientists will often turn to a programming language such as Python, R, or\nSPSS.\nProgramming Languages\nA programming language is a formal language that consists of a set of instructions or commands used to\ncommunicate with a computer and to instruct it to perform specific tasks that may include data manipulation,\ncomputation, and input/output operations. Programming languages allow developers to write algorithms,\ncreate software applications, and automate tasks and are better suited than spreadsheet programs to handle\ncomplex analyses.\nPython and R are two of the most commonly used programming languages today. Both are open-source\nprogramming languages. While Python started as a general-purpose language that covers various types of\ntasks (e.g., numerical computation, data analysis, image processing, and web development), R is more\nspecifically designed for statistical computing and graphics. Both use simple syntax compared to conventional",
+        "metadata": {
+          "page": 39,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 2000,
+          "char_count": 3679,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 39,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1552818761849959,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "ccaac0fcbbc28908899d3226",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 21,
+        "text": "programming languages such as Java or C/C++. They offer a broad collection of packages for data\nmanipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.\nWe have chosen to focus on Python in this text because of its straightforward and intuitive syntax, which\nmakes it especially easy for beginners to learn and apply. Also, Python skills can apply to a wide range of\ncomputing work. Python also contains a vast network of libraries and frameworks specifically designed for\ndata analysis, machine learning, and scientific computing. As we’ll see, Python libraries such as NumPy\n(https://openstax.org/r/nump), Pandas (https://openstax.org/r/panda), Matplotlib (https://openstax.org/r/\nmatplot), and Seaborn (https://openstax.org/r/seabo) provide powerful tools for data manipulation,\nvisualization, and machine learning tasks, making Python a versatile choice for handling datasets. You’ll find\nthe basics of R and various R code examples in Appendix B: Rev",
+        "metadata": {
+          "page": 21,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 3000,
+          "char_count": 3679,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 21,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1817734593681528,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_15",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "9b746b70e0e146278b2fe63c",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 44,
+        "text": "nsible Markup Language (XML) format of a dataset with which uses tags\nGoogle Colaboratory (Colab) software for editing and running Jupyter Notebook files\nGoogle Sheets a spreadsheet program with a graphical user interface developed by Google to help with the\nmanipulation and analysis of data\ninformation some high-level insights that are compiled from data\nInternet of Things (IoT) the network of multiple objects interacting with each other through the Internet\nitem an element that makes up a dataset; also referred to as an entry and an instance\nJavaScript Object Notation (JSON) format of a dataset that follows the syntax of the JavaScript\nprogramming language\nJupyter Notebook a web-based document that helps users run Python programs more interactively\nnominal data data whose values do not include any ordering notion\nnumeric data data that are represented in numbers and indicate measurable quantities\nordinal data data whose values include an ordering notion\nPandas a Python library specia",
+        "metadata": {
+          "page": 44,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 3000,
+          "char_count": 3586,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 44,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1644191243898332,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "0469db908216537f7f417314",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 62,
+        "text": "nsible Markup Language (XML) format of a dataset with which uses tags\nGoogle Colaboratory (Colab) software for editing and running Jupyter Notebook files\nGoogle Sheets a spreadsheet program with a graphical user interface developed by Google to help with the\nmanipulation and analysis of data\ninformation some high-level insights that are compiled from data\nInternet of Things (IoT) the network of multiple objects interacting with each other through the Internet\nitem an element that makes up a dataset; also referred to as an entry and an instance\nJavaScript Object Notation (JSON) format of a dataset that follows the syntax of the JavaScript\nprogramming language\nJupyter Notebook a web-based document that helps users run Python programs more interactively\nnominal data data whose values do not include any ordering notion\nnumeric data data that are represented in numbers and indicate measurable quantities\nordinal data data whose values include an ordering notion\nPandas a Python library specia",
+        "metadata": {
+          "page": 62,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 3000,
+          "char_count": 3586,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 62,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1644191243898332,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "bebbd01bad104e215d21ebaf",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "EXPLORING FURTHER\nPython Programming\nIn the discussion below, we assume you are familiar with basic Python syntax and know how to write a\nsimple program using Python. If you need a refresher on the basics, please refer to Das, U., Lawson, A.,\nMayfield, C., & Norouzi, N. (2024). Introduction to Python Programming. OpenStax. https://openstax.org/\nbooks/introduction-python-programming/pages/1-introduction (https://openstax.org/r/page1).\nJupyter Notebook on Google Colaboratory\nJupyter Notebook is a web-based environment that allows you to run a Python program more interactively,\nusing programming code, math equations, visualizations, and plain texts. There are multiple web applications\nor software you could use to edit a Jupyter Notebook, but in this textbook we will use Google’s free application\nnamed Google Colaboratory (Colab) (https://openstax.org/r/colab1), often abbreviated as Colab. It is a cloud-\nbased platform, which means that you can open, edit, run, and save a Jupyter Notebook",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1000,
+          "char_count": 2056,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17448436173889714,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_01",
+    "split": "test",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "81aa4fcb8a3d10461affae11",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 22,
+        "text": "Data Reporting\nData reporting involves the presentation of data in a way that will best convey the information learned from\ndata analysis. The importance of data reporting cannot be overemphasized. Without it, data scientists cannot\neffectively communicate to their audience the insights they discovered in the data. Data scientists work with\ndomain experts from different fields, and it is their responsibility to communicate the results of their analysis\nin a way that those domain experts can understand. Data visualization is a graphical way of presenting and\nreporting data to point out the patterns, trends, and hidden insights; it involves the use of visual elements\nsuch as charts, graphs, and maps to present data in a way that is easy to comprehend and analyze. The goal of\ndata visualization is to communicate information effectively and facilitate better decision-making. Data\nvisualization and basic statistical graphing, including how to create graphical presentations of data using\nPyt",
+        "metadata": {
+          "page": 22,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1000,
+          "char_count": 3783,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 22,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.12617084759982933,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "7e085025c916fea5b8663a01",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 40,
+        "text": "tion offer a variety of ways to go about creating visualizations that are most\naccessible. Refer to Visualizing Data for a deeper discussion of the types of visualizations—charts, graphs,\nboxplots, histograms, etc.—that can be generated to help find the meaning in data.\nEXPLORING FURTHER\nEvolving Professional Standards\nData science is a field that is changing daily; the introduction of artificial intelligence (AI) has increased this\npace. Technological, social, and ethical challenges with AI are discussed in Natural Language Processing,\nand ethical issues associated with the whole data science process, including the use of machine learning\nand artificial intelligence, are covered in Ethics Throughout the Data Science Cycle. A variety of data science\nprofessional organizations are working to define and update process and ethical standards on an ongoing\nbasis. Useful references may include the following:\n• Initiative for Analytics and Data Science Standards (IADSS) (https://openstax.org/",
+        "metadata": {
+          "page": 40,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 2000,
+          "char_count": 2902,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 40,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15675967931747437,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "ba7ded03930e63d30de04a70",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 22,
+        "text": "tion offer a variety of ways to go about creating visualizations that are most\naccessible. Refer to Visualizing Data for a deeper discussion of the types of visualizations—charts, graphs,\nboxplots, histograms, etc.—that can be generated to help find the meaning in data.\nEXPLORING FURTHER\nEvolving Professional Standards\nData science is a field that is changing daily; the introduction of artificial intelligence (AI) has increased this\npace. Technological, social, and ethical challenges with AI are discussed in Natural Language Processing,\nand ethical issues associated with the whole data science process, including the use of machine learning\nand artificial intelligence, are covered in Ethics Throughout the Data Science Cycle. A variety of data science\nprofessional organizations are working to define and update process and ethical standards on an ongoing\nbasis. Useful references may include the following:\n• Initiative for Analytics and Data Science Standards (IADSS) (https://openstax.org/",
+        "metadata": {
+          "page": 22,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 2000,
+          "char_count": 2902,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 22,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15675971379159992,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_02",
+    "split": "test",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "16e73560c853fbafd28fa388",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "in the sports and the entertainment industry as well. Sports naturally produce much\ndata—about the player, positions, teams, seasons, and so on. Therefore, just as there is the concept of\nbusiness analytics, the analysis of such data in sports is called sports analytics. For example, the Oakland\nAthletics baseball team famously analyzed player recruitment for the 2002 season. The team’s management\nadapted a statistical approach referred to as sabermetrics to recruit and position players. With sabermetrics,\nthe team was able to identify critical yet traditionally overlooked metrics such as on-base percentage and\nslugging percentage. The team, with its small budget compared to other teams, recruited a number of\nundervalued players with strong scores on these metrics, and in the process, they became one of the most\nexciting teams in baseball that year, breaking the American League record for 20 wins in a row. Does this story\nsound familiar? This story was so dramatic that Michael Lewis w",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 3000,
+          "char_count": 3615,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.18477571010589022,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "446a9cf462a321792b96b7be",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "rote a book about it, which was also made into\na movie: Moneyball.\nEXPLORING FURTHER\nThe Sabermetrics YouTube Channel\nSabermetrics is so popular that there is a YouTube channel devoted to it: Simple Sabermetrics\n(https://openstax.org/r/simplesabermetrics), with baseball animations and tutorials explaining how data\nimpacts the way today's game is played behind the scenes.\nIn the entertainment industry, data science is commonly used to make data-driven, personalized suggestions\nthat satisfy consumers known as recommendation systems. One example of a recommendation system is on\n1.2 • Data Science in Practice 15",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 3615,
+          "char_count": 3615,
+          "char_start": 3000,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.24441456794738237,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "d887e7e9aedc70d25d1d0637",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 24,
+        "text": "ult for an instructor to keep track of each individual student’s learning progress.\nHowever, many educational platforms these days are online and can produce an enormous amount of student\ndata, allowing instructors to investigate everyone's learning based on these collected data. For example, online\nlearning management systems such as Canvas (https://openstax.org/r/instructure) compile a grade book in\none place, and online textbooks such as zyBooks (https://openstax.org/r/zybooks) collect students’ mastery\nlevel on each topic through their performance on exercises. All these data can be used to capture each\nstudent’s progress and offer personalized learning experiences such as intelligent tutoring systems or\nadaptive learning. ALEKS (https://openstax.org/r/aleks), an online adaptive learning application, offers\npersonalized material for each learner based on their past performance.\nData Science in Health Care and Medicine\nThe fields of health care and medicine also use data science. Of",
+        "metadata": {
+          "page": 24,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 3000,
+          "char_count": 3431,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 24,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.2579490253864557,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_03",
+    "split": "test",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "425864338349fe0e8cab39df",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 29,
+        "text": "Categorical data is represented in different forms such as words, symbols, and even numbers. A categorical\nvalue is chosen from a finite set of values, and the value does not necessarily indicate a measurable quantity.\nCategorical data can be divided into nominal data and ordinal data. For nominal data, the set of possible\nvalues does not include any ordering notion, whereas with ordinal data, the set of possible values includes an\nordering notion.\nThe rest—semester, instructor, and ratings—are categorical data. They are represented in symbols (e.g., “Fall\n2020,” “A”) or words (e.g., “Highly recommended”), and these values are chosen from the finite set of those\nsymbols and words (e.g., A vs. B). The former two data are nominal since the semester and instructor do not\nhave orders to follow, while the latter is ordinal since there is a notion of degree (Not recommended at all ~\nHighly recommended). You may argue that the semester could have chronological ordering: Fall 2020 comes\nbefore",
+        "metadata": {
+          "page": 29,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1000,
+          "char_count": 3543,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 29,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15549712446348962,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "58687615e643f91793208e30",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 28,
+        "text": "that\nexample, we referred to four pieces of data. They are encoded in different types such as numbers, words, and\nsymbols.\n1. The semester the course was offered—Fall 2020, Spring 2021, …, Fall 2022, Spring 2023\n2. The instructor—A and B\n3. The class size—100, 50, 120, 40, 110, 50\n4. The course rating—“Not recommended at all,” …, “Highly recommended”\nThere are two primary types of quantitative data—numeric and categorical—and each of these can be divided\ninto a few subtypes. Numeric data is represented in numbers that indicate measurable quantities. It may be\nfollowed by some symbols to indicate units. Numeric data is further divided into continuous data and discrete\ndata. With continuous data, the values can be any number. In other words, a value is chosen from an infinite\nset of numbers. With discrete data, the values follow a specific precision, which makes the set of possible\nvalues finite.\nFrom the previous example, the class size 100, 150, etc. are numbers with the implied unit",
+        "metadata": {
+          "page": 28,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3000,
+          "char_count": 3673,
+          "char_start": 2000,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 28,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1703903079032898,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "00273bedbd2768b10639f056",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 28,
+        "text": "data comes in various types. Some data are quantitative, which means that they are\nmeasured and expressed using numbers. Quantitative data deals with quantities and amounts and is usually\nanalyzed using statistical methods. Examples include numerical measurements like height, weight,\ntemperature, heart rate, and sales figures. Qualitative data are non-numerical data that generally describe\nsubjective attributes or characteristics and are analyzed using methods such as thematic analysis or content\nanalysis. Examples include descriptions, observations, interviews, and open-ended survey responses (as we’ll\nsee in Survey Design and Implementation) that address unquantifiable details (e.g., photos, posts on Reddit).\nThe data types often dictate methods for data analysis, so it is important to be able to identify a type of data.\nThus, this section will take a further dive into types of data.\nLet’s revisit our previous example about deciding whether to take a certain course next semester. In",
+        "metadata": {
+          "page": 28,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 2000,
+          "char_count": 3673,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 28,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19323420524597168,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_04",
+    "split": "test",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "95c5cd876f08603b1f334652",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 27,
+        "text": "a = 2\na + b\nThe resulting output will look like this:\n5\nThe value of a has changed to 2. This implies that the execution order of each cell matters! If you have run the\nthird cell before the second cell, the value of a will have the value from the third one even though the third cell\nis located below the second cell. Therefore, it is recommended to use “Run all” or “Run before” after you make\nchanges across multiple cells of code. This way your code is guaranteed to run sequentially from the top.\nPython Pandas\nOne of the strengths of Python is that it includes a variety of free, open-source libraries. Libraries are a set of\nalready-implemented methods that a programmer can refer to, allowing a programmer to avoid building\ncommon functions from scratch.\nPandas is a Python library specialized for data manipulation and analysis, and it is very commonly used among\ndata scientists. It offers a variety of methods, which allows data scientists to quickly use them for data analysis.\nYou will l",
+        "metadata": {
+          "page": 27,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1000,
+          "char_count": 1976,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 27,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17506882398089785,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "0aef49699a59a1213554dace",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 45,
+        "text": "a = 2\na + b\nThe resulting output will look like this:\n5\nThe value of a has changed to 2. This implies that the execution order of each cell matters! If you have run the\nthird cell before the second cell, the value of a will have the value from the third one even though the third cell\nis located below the second cell. Therefore, it is recommended to use “Run all” or “Run before” after you make\nchanges across multiple cells of code. This way your code is guaranteed to run sequentially from the top.\nPython Pandas\nOne of the strengths of Python is that it includes a variety of free, open-source libraries. Libraries are a set of\nalready-implemented methods that a programmer can refer to, allowing a programmer to avoid building\ncommon functions from scratch.\nPandas is a Python library specialized for data manipulation and analysis, and it is very commonly used among\ndata scientists. It offers a variety of methods, which allows data scientists to quickly use them for data analysis.\nYou will l",
+        "metadata": {
+          "page": 45,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 1000,
+          "char_count": 1976,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 45,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17506889402045078,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "a0c858592b92eb62156cf57a",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 27,
+        "text": "earn how to analyze data using Pandas throughout this textbook.\nColab already has Pandas installed, so you just need to import Pandas and you are set to use all the methods\nin Pandas. Note that it is convention to abbreviate pandas to pd so that when you call a method from Pandas,\nyou can do so by using pd instead of having to type out Pandas every time. It offers a bit of convenience for a\nprogrammer!\n# import Pandas and assign an abbreviated identifier \"pd\"\nimport pandas as pd\nEXPLORING FURTHER\nInstalling Pandas on Your Computer\nIf you wish to install Pandas on your own computer, refer to the installation page of the Pandas website\n(https://openstax.org/r/pyd).\nLoad Data Using Python Pandas\nThe first step for data analysis is to load the data of your interest to your Notebook. Let’s create a folder on\nGoogle Drive where you can keep a CSV file for the dataset and a Notebook for data analysis. Download a\nPYTHON CODE\nPYTHON CODE\n1.5 • Data Science with Python 35",
+        "metadata": {
+          "page": 27,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1976,
+          "char_count": 1976,
+          "char_start": 1000,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 27,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19113521628765817,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_05",
+    "split": "test",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "b86581bdd3d51a291c92b417",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 39,
+        "text": "Visualize Data Using Python Matplotlib\nThere are multiple ways to draw plots of data in Python. The most common and straightforward way is to\nimport another library, Matplotlib, which is specialized for data visualization. Matplotlib is a huge library,\nand to draw the plots you only need to import a submodule named pyplot.\nType the following import statement in a new cell. Note it is convention to denote matplotlib.pyplot with\nplt, similarly to denoting Pandas with pd.\nimport matplotlib.pyplot as plt\nMatplotlib offers a method for each type of plot, and you will learn the Matplotlib methods for all of the\ncommonly used types throughout this textbook. In this chapter, however, let’s briefly look at how to draw a plot\nusing Matplotlib in general.\nSuppose you want to draw a scatterplot between “US_Gross_Million” and “Worldwide_Gross_Million” of the\nmovie profit dataset (ch1-movieprofit.csv (https://openstax.org/r/movieprofit)). You will investigate scatterplots\nin more detail in Correlati",
+        "metadata": {
+          "page": 39,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 1000,
+          "char_count": 1398,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 39,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16777193546295166,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "1df69d8634a3085a0238264e",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 57,
+        "text": "Visualize Data Using Python Matplotlib\nThere are multiple ways to draw plots of data in Python. The most common and straightforward way is to\nimport another library, Matplotlib, which is specialized for data visualization. Matplotlib is a huge library,\nand to draw the plots you only need to import a submodule named pyplot.\nType the following import statement in a new cell. Note it is convention to denote matplotlib.pyplot with\nplt, similarly to denoting Pandas with pd.\nimport matplotlib.pyplot as plt\nMatplotlib offers a method for each type of plot, and you will learn the Matplotlib methods for all of the\ncommonly used types throughout this textbook. In this chapter, however, let’s briefly look at how to draw a plot\nusing Matplotlib in general.\nSuppose you want to draw a scatterplot between “US_Gross_Million” and “Worldwide_Gross_Million” of the\nmovie profit dataset (ch1-movieprofit.csv (https://openstax.org/r/movieprofit)). You will investigate scatterplots\nin more detail in Correlati",
+        "metadata": {
+          "page": 57,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 1000,
+          "char_count": 1398,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 57,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16777193546295166,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "806517847a3ca5eea993d400",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 22,
+        "text": "EXPLORING FURTHER\nSpecialized Programming Languages\nOther programming languages are more specialized for a particular task with data. These include SQL,\nScala, and Julia, among others, as briefly described in this article on “The Nine Top Programming Languages\nfor Data Science (https://openstax.org/r/9top).”\nOther Data Analysis/Visualization Tools\nThere are a few other data analysis tools that are strong in data visualization. Tableau (https://openstax.org/r/\ntableau1) and PowerBI (https://openstax.org/r/micro) are user-friendly applications for data visualization. They\nare known for offering more sophisticated, interactive visualizations for high-dimensional data. They also offer\na relatively easy user interface for compiling an analysis dashboard. Both allow users to run a simple data\nanalysis as well before visualizing the results, similar to Excel.\nIn general, data visualization aims to make complex data more understandable and usable. The tools and\ntechnology described in this sec",
+        "metadata": {
+          "page": 22,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1000,
+          "char_count": 2902,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 22,
+          "candidate_content": true,
+          "chunking_strategy": "paragraph",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16956663131713867,
+        "is_hit": false
+      }
+    ]
+  }
+]

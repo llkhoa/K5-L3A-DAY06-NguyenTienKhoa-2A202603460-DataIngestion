@@ -1,0 +1,1602 @@
+[
+  {
+    "question_id": "dev_01",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "0846bd7fb0c9c6fbc064c546",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 19,
+        "text": "in the data science process.\nData science is a field of study that investigates how to collect, manage, and analyze data of all types in order\nto retrieve meaningful information. Although we will describe data in more detail in Data and Datasets, you\ncan consider data to be any pieces of evidence or observations that can be analyzed to provide some insights.\nWhat Are Data and Data Science?\n1",
+        "metadata": {
+          "page": 19,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 1744,
+          "char_count": 1744,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 19,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.09808719158171963,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "a36edadb657dc962742ea643",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 26,
+        "text": "in today’s world. Data science allows us to extract insights and knowledge from data, driving decision-making\nand innovation in business, health care, entertainment, and so on. As we’ve seen, the field has roots in math,\nstatistics, and computer science, but it only began to emerge as its own distinct field in the early 2000s with\nthe proliferation of digital data and advances in computing power and technology. It gained significant\nmomentum and recognition around the mid to late 2000s with the",
+        "metadata": {
+          "page": 26,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3199,
+          "char_count": 3657,
+          "char_start": 2700,
+          "chunk_index": 6,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 26,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.13368897833292426,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "3e44ffd9d0cc8d877f7909d3",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 26,
+        "text": "re Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 26,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3657,
+          "char_count": 3657,
+          "char_start": 3600,
+          "chunk_index": 8,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 26,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1382993542134362,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_02",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "95e3ab79644250eae7fa872f",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 20,
+        "text": "In its earliest days, the work of data science was spread across multiple disciplines, including statistics,\nmathematics, computer science, and social science. It was commonly believed that the job of data collection,\nmanagement, and analysis would be carried out by different types of experts, with each job independent of\none another. To be more specific, data collection was considered to be the province of so-called domain\nexperts (e.g., doctors for medical data, psychologists for psychological",
+        "metadata": {
+          "page": 20,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 500,
+          "char_count": 2795,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 20,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.10699813920270407,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "a36edadb657dc962742ea643",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 26,
+        "text": "in today’s world. Data science allows us to extract insights and knowledge from data, driving decision-making\nand innovation in business, health care, entertainment, and so on. As we’ve seen, the field has roots in math,\nstatistics, and computer science, but it only began to emerge as its own distinct field in the early 2000s with\nthe proliferation of digital data and advances in computing power and technology. It gained significant\nmomentum and recognition around the mid to late 2000s with the",
+        "metadata": {
+          "page": 26,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3199,
+          "char_count": 3657,
+          "char_start": 2700,
+          "chunk_index": 6,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 26,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.18218239864425534,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "b46f2f0fed59ee9318107920",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 46,
+        "text": "uctured data becoming unmanageable, leading\nto the development of cloud-based systems for data storage.\nd. Data management systems have primarily focused on analysis rather than processing, resulting in the\ndevelopment of modern data warehousing solutions.\n3 . Which of the following best exemplifies the interdisciplinary nature of data science in various fields?\na. A historian traveling to Italy to study ancient manuscripts to uncover historical insights about the\nRoman Empire\nb. A mathematician",
+        "metadata": {
+          "page": 46,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 2300,
+          "char_count": 3092,
+          "char_start": 1800,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 46,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.183711149250132,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_03",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "a4cc59579ff7841be4e2fa6c",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 21,
+        "text": "Figure 1.3 The Data Science Cycle\nAlthough data collection and preparation may sound like simple tasks compared to the more important work\nof analysis, they are actually the most time- and effort-consuming steps in the data science cycle. According to\na survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data\ncollection and cleaning, while data analysis and communication take about a quarter to a third of the time\neach, depending on the job.\nProblem Def",
+        "metadata": {
+          "page": 21,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 500,
+          "char_count": 3784,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 21,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.10933554172515869,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "3e44ffd9d0cc8d877f7909d3",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 26,
+        "text": "re Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 26,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 3657,
+          "char_count": 3657,
+          "char_start": 3600,
+          "chunk_index": 8,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 26,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1763017177581787,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "829b7b732aed2f6e4a6e2ae5",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 36,
+        "text": "a and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 36,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 951,
+          "char_count": 951,
+          "char_start": 900,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 36,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17735135555267334,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_04",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "7a0dbada1937b9064325f57b",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "pping facilities could be made ready to put on a\ndelivery truck in just 11 minutes (Herrington, 2023). Amazon also utilizes machine learning algorithms to\npredict the demand for items in each region and have the highest-demand items available in advance at the\nfulfillment center of the corresponding region. This predictive strategy has helped Amazon reduce the delivery\ntime for each product and extend the item selections for two-day shipping (Herrington, 2023).\nData science is utilized extensive",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 2750,
+          "char_count": 4807,
+          "char_start": 2250,
+          "chunk_index": 5,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15104389190673828,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "58ee8daf9126c347052dde2a",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "e and cost. Like Walmart, it started by analyzing consumer patterns\nand was able to place products close to customers. To do so, Amazon first divided the United States into eight\ngeographic regions and ensured that most items were warehoused and shipped within the same region; this\nallowed the company to reduce the shipping time and cost. As of 2023, more than 76% of orders were shipped\nfrom within the customer’s region, and items in same-day shipping facilities could be made ready to put on a\nd",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 2300,
+          "char_count": 4807,
+          "char_start": 1800,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1541495735466929,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "f6dd1b346ae8bc1606c97ffb",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "out associates to assign at different times of the\nday, where to place popular products, and many other sales and product details. In addition, the company has\nlaunched social media analytics efforts to investigate hot keywords on social media and promptly make related\nproducts available (ProjectPro, 2015).\nAmazon provides another good example. Ever since it launched its Prime membership service, Amazon has\nfocused on how to minimize delivery time and cost. Like Walmart, it started by analyzing",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1849,
+          "char_count": 4807,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19025126811846305,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_05",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "b31b9e76ba7ae0919ed03028",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 44,
+        "text": "with the\nmanipulation and analysis of data\ninformation some high-level insights that are compiled from data\nInternet of Things (IoT) the network of multiple objects interacting with each other through the Internet\nitem an element that makes up a dataset; also referred to as an entry and an instance\nJavaScript Object Notation (JSON) format of a dataset that follows the syntax of the JavaScript\nprogramming language\nJupyter Notebook a web-based document that helps users run Python programs more int",
+        "metadata": {
+          "page": 44,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 2750,
+          "char_count": 3586,
+          "char_start": 2250,
+          "chunk_index": 5,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 44,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15489165128568394,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "5093286015bec01d7cabe562",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 62,
+        "text": "with the\nmanipulation and analysis of data\ninformation some high-level insights that are compiled from data\nInternet of Things (IoT) the network of multiple objects interacting with each other through the Internet\nitem an element that makes up a dataset; also referred to as an entry and an instance\nJavaScript Object Notation (JSON) format of a dataset that follows the syntax of the JavaScript\nprogramming language\nJupyter Notebook a web-based document that helps users run Python programs more int",
+        "metadata": {
+          "page": 62,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 2750,
+          "char_count": 3586,
+          "char_start": 2250,
+          "chunk_index": 5,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 62,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15489166051793768,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "c0042fa255d9631b63bf6819",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "th each other through the Internet. Data science plays\na crucial role in these interactions since behaviors of the objects in a network are often triggered by data\ncollected by another object in the network. For example, a smart doorbell or camera allows us to see a live\nstream on our phone and alerts us to any unusual activity.\nIn addition, weather forecasting has always been a data-driven task. Weather analysts collect different\nmeasures of the weather such as temperature and humidity and then",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 4100,
+          "char_count": 4807,
+          "char_start": 3600,
+          "chunk_index": 8,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1801826035649875,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_06",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "c1089a941a9e1e91d926d5d6",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 24,
+        "text": "ntative examples of the use of data science in public policy. Multiple\ncities around the world, including Masdar City in the United Arab Emirates and Songdo in South Korea, have\ninstalled thousands of data-collecting sensors used to optimize their energy consumption. The technology is\nnot perfect, and smart cities may not yet live up to their full potential, but many corporations and companies\nare pursuing the goal of developing smart cities more broadly (Clewlow, 2024). The notion of a smart ci",
+        "metadata": {
+          "page": 24,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 950,
+          "char_count": 3431,
+          "char_start": 450,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 24,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.14617455005645752,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "6897a7dd658bef248f9ff2f2",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 24,
+        "text": "broadly (Clewlow, 2024). The notion of a smart city has\nalso been applied on a smaller scale, such as to a parking lot, a building, or a street of lights. For example, the\ncity of San Diego installed thousands of sensors on the city streets to control the streetlights using data and\nsmart technology. The sensors measure traffic, parking occupancy, humidity, and temperature and are able to\nturn on the lights only when necessary (Van Bocxlaer, 2020). New York City has adopted smart garbage bins\nt",
+        "metadata": {
+          "page": 24,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1400,
+          "char_count": 3431,
+          "char_start": 901,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 24,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1675543537007076,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "5f0b601018e5fe58850df200",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 24,
+        "text": "0). New York City has adopted smart garbage bins\nthat monitor the amount of garbage in a bin, allowing garbage collection companies to route their collection\nefforts more efficiently (Van Bocxlaer, 2020).\nEXPLORING FURTHER\nSensor Networks to Monitor Energy Consumption\nSee how Songdo (https://openstax.org/r/youtube4) monitors energy consumption and safety with sensor\nnetworks.\nData Science in Education\nData science also influences education. Traditional instruction, especially in higher education",
+        "metadata": {
+          "page": 24,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1850,
+          "char_count": 3431,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 24,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.18285267455263743,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_07",
+    "split": "dev",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "ab96ac662e32ea1ef0e1b974",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "will enable patients to receive more accurate diagnoses along with more personalized\ntreatment regimens in the long run.\nThe Precision Medicine Initiative (https://openstax.org/r/obamawhitehouse) is a long-term research endeavor\ncarried out by the National Institutes of Health (NIH) and other research centers, with the goal of better\nunderstanding how a person's genetics, environment, and lifestyle can help determine the best approach to\nprevent or treat disease. The initiative aims to look at",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 949,
+          "char_count": 3615,
+          "char_start": 451,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.10025929209478546,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "b17b6eb2393c7f0aedff6f80",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "owered by artificial intelligence\ncan provide automated health care advice. This will reduce the need for patients to see a pharmacist or doctor,\nwhich in turn improves health care accessibility for those who are in greater need.\nEXPLORING FURTHER\nBig Data In Health Care\nThe 2015 launch of the National Institutes of Health Precision Medicine Initiative was documented in One\nWoman’s Quest to Cure Her Fatal Brain Disease (https://openstax.org/r/youtubevk). “Promise of Precision\nMedicine” signaled",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1849,
+          "char_count": 3615,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.14283621311187744,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "712d7c4de2440148d4303e05",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "or treat disease. The initiative aims to look at as much data as possible to care for a patient’s health\nmore proactively. For example, the initiative includes genome sequencing to look for certain mutations that\nindicate a higher risk of cancer or other diseases.\nAnother application of data science in health focuses on lowering the cost of health care services. Using\nhistorical records of patients’ symptoms and prescription, a chatbot that is powered by artificial intelligence\ncan provide auto",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 1400,
+          "char_count": 3615,
+          "char_start": 901,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1876523978917347,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_08",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "52a838d5176b4f79eaa2f981",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 27,
+        "text": "time. This started in the Stone Age when people carved some shapes and pictures, called petroglyphs, on rock.\nThe petroglyphs provide insights on how animals looked and how they carried out their daily life, which is\nvaluable “data” for us. Ancient Egyptians invented a first form of paper—papyrus—in order to journal their\ndata. Papyrus also made it easier to store data in bulk, such as listing inventories, noting financial transactions,\nand recording a story for future generations.\nData\n“Data” i",
+        "metadata": {
+          "page": 27,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 500,
+          "char_count": 2518,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 27,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1457306146621643,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "01a922d65b961b4b3cebdec7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 21,
+        "text": "is simply a by-product of\nour activity. These by-products are kept as data because they could be used by others to find some helpful\ninsights later. One example is our web search histories. We use a web search engine like Google to search for\ninformation about our interests, and such activity leaves a history of the search text we used on the Google\nserver. Google employees can utilize the records of numerous Google users in order to analyze common\nsearch patterns, present accurate search result",
+        "metadata": {
+          "page": 21,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 1850,
+          "char_count": 3784,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 21,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.2191153662605908,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "256fa44c7e4d6dc650d9be2f",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 19,
+        "text": "Figure 1.1 Petroglyphs are one of the earliest types of data generated by humanity, providing vital information about the daily life of\nthe people who created them. (credit: modification of work “Indian petroglyphs (~100 B.C. to ~1540 A.D.) (Newspaper Rock,\nsoutheastern Utah, USA) 24” by James St. John/Flickr, CC BY 2.0)\nChapter Outline\n1.1 What Is Data Science?\n1.2 Data Science in Practice\n1.3 Data and Datasets\n1.4 Using Technology for Data Science\n1.5 Data Science with Python\nIntroduction\nMany",
+        "metadata": {
+          "page": 19,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 500,
+          "char_count": 1744,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 19,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.22206007110713244,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_09",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "ce08b227d5573ee21be17778",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 63,
+        "text": "qualitative data non-numerical data that generally describe subjective attributes or characteristics and are\nanalyzed using methods such as thematic analysis or content analysis\nquantitative data data that can be measured by specific quantities and amounts and are often analyzed\nusing statistical methods\nR an open-source programming language that is specifically designed for statistical computing and graphics\nrecommendation system a system that makes data-driven, personalized suggestions for use",
+        "metadata": {
+          "page": 63,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 500,
+          "char_count": 3406,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 63,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.14886856079101562,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "c072d97bcb2e4adbe9b281b8",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 45,
+        "text": "qualitative data non-numerical data that generally describe subjective attributes or characteristics and are\nanalyzed using methods such as thematic analysis or content analysis\nquantitative data data that can be measured by specific quantities and amounts and are often analyzed\nusing statistical methods\nR an open-source programming language that is specifically designed for statistical computing and graphics\nrecommendation system a system that makes data-driven, personalized suggestions for use",
+        "metadata": {
+          "page": 45,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 500,
+          "char_count": 3406,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 45,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1488687307316806,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "242675090fd96c266f082bc7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 28,
+        "text": "a, and how often we make data-driven decisions without even noticing it. You might\nhave noticed that data comes in various types. Some data are quantitative, which means that they are\nmeasured and expressed using numbers. Quantitative data deals with quantities and amounts and is usually\nanalyzed using statistical methods. Examples include numerical measurements like height, weight,\ntemperature, heart rate, and sales figures. Qualitative data are non-numerical data that generally describe\nsubjec",
+        "metadata": {
+          "page": 28,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1400,
+          "char_count": 3673,
+          "char_start": 900,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 28,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15522668228228897,
+        "is_hit": true
+      }
+    ]
+  },
+  {
+    "question_id": "dev_10",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "75664957116fc4bccc5fefa7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 30,
+        "text": "of keywords that were searched on a web search engine in the past week. Is this dataset\nstructured or unstructured?\nSolution\nThe dataset is an unstructured dataset since each entry in the dataset can be a freeform text: a single word,\nmultiple words, or even multiple sentences.\n20 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 30,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1700,
+          "char_count": 1700,
+          "char_start": 1351,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 30,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16321454486673537,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "51bef737d630cfea21548a63",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 34,
+        "text": "dataset above has four keys, each of which maps\nto each attribute—Semester, Instructor, Class Size, and Rating. Their values are \"Fall 2020\", \"A\", 100, and\n\"Not recommended at all\".\nExtensible Markup Language (XML)\nThe XML format is like JSON, but it lists each item of the dataset using different symbols named tags. An XML\ntag is any block of text that consists of a pair of angle brackets (< >) with some text inside. Let’s look at the\nexample XML representation of the same dataset in Figure 1.8",
+        "metadata": {
+          "page": 34,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1400,
+          "char_count": 2547,
+          "char_start": 901,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 34,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16447847101220514,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "603174b5e6d81de2f9e15e57",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 29,
+        "text": "for analysis and interpretation, as shown in\nTable 1.1. Many datasets can be represented as a table where each row indicates a unique data entity and each\ncolumn defines the structure of the entities.\nNotice that the dataset we used in Table 1.1 has six entities (also referred to as items, entries, or instances),\ndistinguished by semester. Each entity is defined by a combination of four attributes or characteristics (also\nknown as features or variables)—Semester, Instructor, Class Size, and Rati",
+        "metadata": {
+          "page": 29,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 2750,
+          "char_count": 3543,
+          "char_start": 2250,
+          "chunk_index": 5,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 29,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1647408310042311,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_11",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "69bfc7e032ca1139f2863049",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 33,
+        "text": "tax of a programming language named JavaScript. Specifically, it follows JavaScript’s object\nsyntax. Don’t worry, though! You do not need to know JavaScript to understand the JSON format.\nFigure 1.7 provides an example of the JSON representation of the same dataset depicted in Figure 1.6.\nFigure 1.7 CourseEvaluations.json Opened with Visual Studio Code\nNotice that the JSON format starts and ends with a pair of curly braces ({}). Inside, there are multiple pairs of\n1.3 • Data and Datasets 23",
+        "metadata": {
+          "page": 33,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1845,
+          "char_count": 1845,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 33,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.14042173142173497,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "883e3988ff699d780a849810",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 31,
+        "text": "ns) is stored in the JSON or XML format. The reason is that JSON is the most\nsuitable for exchanging data between a user and a server, and XML is the most suitable for complex dataset\ndue to its hierarchy-friendly nature. Since they all store data as plain texts, you can open them using any\ntypical text editors such as Notepad, Visual Studio Code, Sublime Text, or VI editor.\nTable 1.3 summarizes the advantages and disadvantages of CSV, JSON, and XML dataset formats. Each of these\nis described in",
+        "metadata": {
+          "page": 31,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1400,
+          "char_count": 1972,
+          "char_start": 900,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 31,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1900174617767334,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "befcbec1925ea3ef9f514cae",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 33,
+        "text": "correctly; it may\nhave used the name of the spreadsheet file—“ch1-data.xlsx” in this case. You should name the generated\nCSV file as the name of the corresponding tab. For example, if you have generated a CSV file for the first tab\nof “ch1-data.xlsx,” make sure the generated file name is “ch1-courseEvaluations.csv.” This will prevent future\nconfusion when following instructions in this textbook.\nJavaScript Object Notation (JSON)\nJSON uses the syntax of a programming language named JavaScript. Sp",
+        "metadata": {
+          "page": 33,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 1400,
+          "char_count": 1845,
+          "char_start": 900,
+          "chunk_index": 2,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 33,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.19058636398870799,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_12",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "41e98680bddb2917f00824b6",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 31,
+        "text": "asets can be stored in different formats, and it’s important to be able to recognize the most commonly\nused formats. This section covers three of the most often used formats for structured datasets—comma-\nseparated values (CSV), JavaScript Object Notation (JSON), and Extensible Markup Language (XML). While\nCSV is the most intuitive way of encoding a tabular dataset, much of the data we would collect from the web\n(e.g., websites, mobile applications) is stored in the JSON or XML format. The reaso",
+        "metadata": {
+          "page": 31,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 950,
+          "char_count": 1972,
+          "char_start": 450,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 31,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1461109431915898,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "275cc07aa3560809980367d8",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 62,
+        "text": "Key Terms\nattribute characteristic or feature that defines an item in a dataset\ncategorical data data that is represented in different forms and do not indicate measurable quantities\ncell a block or rectangle on a table that is specified with a combination of a row number and a column\nnumber\ncomma-separated values (CSV) format of a dataset in which each item takes up a single line and its values\nare separated by commas (“,”)\ncontinuous data data whose value is chosen from an infinite set of numb",
+        "metadata": {
+          "page": 62,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 500,
+          "char_count": 3586,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 62,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.14951246085688552,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "f801b1c475bcc7b465484d45",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 44,
+        "text": "Key Terms\nattribute characteristic or feature that defines an item in a dataset\ncategorical data data that is represented in different forms and do not indicate measurable quantities\ncell a block or rectangle on a table that is specified with a combination of a row number and a column\nnumber\ncomma-separated values (CSV) format of a dataset in which each item takes up a single line and its values\nare separated by commas (“,”)\ncontinuous data data whose value is chosen from an infinite set of numb",
+        "metadata": {
+          "page": 44,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 500,
+          "char_count": 3586,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 44,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.14951252937316895,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_13",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "ed01b480655baffcb81ad270",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 20,
+        "text": "offer a variety of functions for data manipulation and can be used to easily create charts and tables.\nExcel is one of the most widely used spreadsheet programs, and as part of Microsoft Office, it integrates well\nwith other Office products. Excel was first released by Microsoft in 1987, and it has become one of the most\npopular choices for loading and analyzing tabular data in a spreadsheet format. You are likely to have used\nExcel in some form or other —perhaps to organize the possible roommat",
+        "metadata": {
+          "page": 20,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 2300,
+          "char_count": 2406,
+          "char_start": 1800,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 20,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15860657938679434,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "7e88bc700e01d0e854cda2cf",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 38,
+        "text": "offer a variety of functions for data manipulation and can be used to easily create charts and tables.\nExcel is one of the most widely used spreadsheet programs, and as part of Microsoft Office, it integrates well\nwith other Office products. Excel was first released by Microsoft in 1987, and it has become one of the most\npopular choices for loading and analyzing tabular data in a spreadsheet format. You are likely to have used\nExcel in some form or other —perhaps to organize the possible roommat",
+        "metadata": {
+          "page": 38,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 2300,
+          "char_count": 2406,
+          "char_start": 1800,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 38,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1586066891423774,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "14d30aeed1c60cb8f4912270",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 62,
+        "text": "analysis\ndiscrete data data that follows a specific precision\nExcel a spreadsheet program with a graphical user interface developed by Microsoft to help with the\nmanipulation and analysis of data\nExtensible Markup Language (XML) format of a dataset with which uses tags\nGoogle Colaboratory (Colab) software for editing and running Jupyter Notebook files\nGoogle Sheets a spreadsheet program with a graphical user interface developed by Google to help with the\nmanipulation and analysis of data\ninforma",
+        "metadata": {
+          "page": 62,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 2300,
+          "char_count": 3586,
+          "char_start": 1800,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 62,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.20618314779896285,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_14",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "6ff1a74820fe86aecc073184",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 21,
+        "text": ", numerical computation, data analysis, image processing, and web development), R is more\nspecifically designed for statistical computing and graphics. Both use simple syntax compared to conventional\nprogramming languages such as Java or C/C++. They offer a broad collection of packages for data\nmanipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.\nWe have chosen to focus on Python in this text because of its straightforward and intuitive syntax, wh",
+        "metadata": {
+          "page": 21,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.1",
+          "char_end": 2300,
+          "char_count": 3679,
+          "char_start": 1800,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 21,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.13009210257897874,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "ac0a3ed4373a2a00e04e11f6",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 39,
+        "text": ", numerical computation, data analysis, image processing, and web development), R is more\nspecifically designed for statistical computing and graphics. Both use simple syntax compared to conventional\nprogramming languages such as Java or C/C++. They offer a broad collection of packages for data\nmanipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.\nWe have chosen to focus on Python in this text because of its straightforward and intuitive syntax, wh",
+        "metadata": {
+          "page": 39,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 2300,
+          "char_count": 3679,
+          "char_start": 1800,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 39,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1300921180871757,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "f77721e53681ee19a384b996",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 39,
+        "text": "nipulation,\ncomputation, and input/output operations. Programming languages allow developers to write algorithms,\ncreate software applications, and automate tasks and are better suited than spreadsheet programs to handle\ncomplex analyses.\nPython and R are two of the most commonly used programming languages today. Both are open-source\nprogramming languages. While Python started as a general-purpose language that covers various types of\ntasks (e.g., numerical computation, data analysis, image proc",
+        "metadata": {
+          "page": 39,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 1850,
+          "char_count": 3679,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 39,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16191067809132365,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev_15",
+    "split": "dev",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "3283b7037605a2b3f98e88d7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 23,
+        "text": "book on Google Colaboratory\nJupyter Notebook is a web-based environment that allows you to run a Python program more interactively,\nusing programming code, math equations, visualizations, and plain texts. There are multiple web applications\nor software you could use to edit a Jupyter Notebook, but in this textbook we will use Google’s free application\nnamed Google Colaboratory (Colab) (https://openstax.org/r/colab1), often abbreviated as Colab. It is a cloud-\nbased platform, which means that you",
+        "metadata": {
+          "page": 23,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 950,
+          "char_count": 2056,
+          "char_start": 450,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 23,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1553586721420288,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "6cd8818cb4c4c3755b0393d8",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 41,
+        "text": "book on Google Colaboratory\nJupyter Notebook is a web-based environment that allows you to run a Python program more interactively,\nusing programming code, math equations, visualizations, and plain texts. There are multiple web applications\nor software you could use to edit a Jupyter Notebook, but in this textbook we will use Google’s free application\nnamed Google Colaboratory (Colab) (https://openstax.org/r/colab1), often abbreviated as Colab. It is a cloud-\nbased platform, which means that you",
+        "metadata": {
+          "page": 41,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 950,
+          "char_count": 2056,
+          "char_start": 450,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 41,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1553586721420288,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "5093286015bec01d7cabe562",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 62,
+        "text": "with the\nmanipulation and analysis of data\ninformation some high-level insights that are compiled from data\nInternet of Things (IoT) the network of multiple objects interacting with each other through the Internet\nitem an element that makes up a dataset; also referred to as an entry and an instance\nJavaScript Object Notation (JSON) format of a dataset that follows the syntax of the JavaScript\nprogramming language\nJupyter Notebook a web-based document that helps users run Python programs more int",
+        "metadata": {
+          "page": 62,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 2750,
+          "char_count": 3586,
+          "char_start": 2250,
+          "chunk_index": 5,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 62,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16905314737875,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_01",
+    "split": "test",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "8aa13f314a926617283eb367",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 22,
+        "text": "alysis\nin a way that those domain experts can understand. Data visualization is a graphical way of presenting and\nreporting data to point out the patterns, trends, and hidden insights; it involves the use of visual elements\nsuch as charts, graphs, and maps to present data in a way that is easy to comprehend and analyze. The goal of\ndata visualization is to communicate information effectively and facilitate better decision-making. Data\nvisualization and basic statistical graphing, including how t",
+        "metadata": {
+          "page": 22,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 950,
+          "char_count": 3783,
+          "char_start": 450,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 22,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.12536931037902832,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "3ee57b59f3cb5a967e231d26",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 62,
+        "text": "point out the patterns and trends involving the\nuse of visual elements such as charts, graphs, and maps\ndata warehousing the process of storing and managing large volumes of data from various sources in a\ncentral location for easier access and analysis by businesses\nDataFrame a data type that Pandas uses to store a multi-column tabular data\ndataset a collection of related and organized information or data points grouped together for reference or\nanalysis\ndiscrete data data that follows a specifi",
+        "metadata": {
+          "page": 62,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 1850,
+          "char_count": 3586,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 62,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15238559246063232,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "416bcfd3f024742e83136ecd",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 44,
+        "text": "point out the patterns and trends involving the\nuse of visual elements such as charts, graphs, and maps\ndata warehousing the process of storing and managing large volumes of data from various sources in a\ncentral location for easier access and analysis by businesses\nDataFrame a data type that Pandas uses to store a multi-column tabular data\ndataset a collection of related and organized information or data points grouped together for reference or\nanalysis\ndiscrete data data that follows a specifi",
+        "metadata": {
+          "page": 44,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 1850,
+          "char_count": 3586,
+          "char_start": 1350,
+          "chunk_index": 3,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 44,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.15238571166992188,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_02",
+    "split": "test",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "79e0d7605cc8908f8205fe29",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "lled sports analytics. For example, the Oakland\nAthletics baseball team famously analyzed player recruitment for the 2002 season. The team’s management\nadapted a statistical approach referred to as sabermetrics to recruit and position players. With sabermetrics,\nthe team was able to identify critical yet traditionally overlooked metrics such as on-base percentage and\nslugging percentage. The team, with its small budget compared to other teams, recruited a number of\nundervalued players with stron",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 2750,
+          "char_count": 3615,
+          "char_start": 2250,
+          "chunk_index": 5,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.14036459567335668,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "9120e76866d03560b340ad1e",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 25,
+        "text": "cruited a number of\nundervalued players with strong scores on these metrics, and in the process, they became one of the most\nexciting teams in baseball that year, breaking the American League record for 20 wins in a row. Does this story\nsound familiar? This story was so dramatic that Michael Lewis wrote a book about it, which was also made into\na movie: Moneyball.\nEXPLORING FURTHER\nThe Sabermetrics YouTube Channel\nSabermetrics is so popular that there is a YouTube channel devoted to it: Simple S",
+        "metadata": {
+          "page": 25,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 3200,
+          "char_count": 3615,
+          "char_start": 2700,
+          "chunk_index": 6,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 25,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.2259854578362811,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "0f880be8d2f602be9e8a24e7",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 45,
+        "text": "akes data-driven, personalized suggestions for users\nsabermetrics a statistical approach to sports team management\nsports analytics use of data and business analytics in sports\nspreadsheet program a software application consisting of electronic worksheets with rows and columns\nwhere data can be entered, manipulated, and calculated\nstructured data dataset whose individual items have the same structure\nunstructured data dataset whose individual items have different structures\nXML tag any block of",
+        "metadata": {
+          "page": 45,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 949,
+          "char_count": 3406,
+          "char_start": 450,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 45,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.22957856831422718,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_03",
+    "split": "test",
+    "hit_1": true,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "a56f3d454b2dc250c8be82e8",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 29,
+        "text": "Categorical data is represented in different forms such as words, symbols, and even numbers. A categorical\nvalue is chosen from a finite set of values, and the value does not necessarily indicate a measurable quantity.\nCategorical data can be divided into nominal data and ordinal data. For nominal data, the set of possible\nvalues does not include any ordering notion, whereas with ordinal data, the set of possible values includes an\nordering notion.\nThe rest—semester, instructor, and ratings—are",
+        "metadata": {
+          "page": 29,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 499,
+          "char_count": 3543,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 29,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.14468777179718018,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "754a549c7776dd359066df01",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 28,
+        "text": "s size—100, 50, 120, 40, 110, 50\n4. The course rating—“Not recommended at all,” …, “Highly recommended”\nThere are two primary types of quantitative data—numeric and categorical—and each of these can be divided\ninto a few subtypes. Numeric data is represented in numbers that indicate measurable quantities. It may be\nfollowed by some symbols to indicate units. Numeric data is further divided into continuous data and discrete\ndata. With continuous data, the values can be any number. In other words,",
+        "metadata": {
+          "page": 28,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 2750,
+          "char_count": 3673,
+          "char_start": 2250,
+          "chunk_index": 5,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 28,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.16312353830793125,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "7f9f7cd255b4314d25c2ec0e",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 29,
+        "text": "They are also continuous data since they can be any real number, and the set of real numbers is infinite.\nThe other type of data—whether or not you needed a jacket—is categorical data. Categorical data are\nrepresented in symbols (Yes/No), and the values are chosen from the finite set of those symbols. They are\nalso nominal since Yes/No does not have ordering to follow.\nDatasets\nA dataset is a collection of observations or data entities organized for analysis and interpretation, as shown in\nTable",
+        "metadata": {
+          "page": 29,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 2300,
+          "char_count": 3543,
+          "char_start": 1800,
+          "chunk_index": 4,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 29,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.17474888713664338,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_04",
+    "split": "test",
+    "hit_1": false,
+    "hit_3": true,
+    "traces": [
+      {
+        "chunk_id": "4467ab399f7f2287534b614a",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 27,
+        "text": "ode is guaranteed to run sequentially from the top.\nPython Pandas\nOne of the strengths of Python is that it includes a variety of free, open-source libraries. Libraries are a set of\nalready-implemented methods that a programmer can refer to, allowing a programmer to avoid building\ncommon functions from scratch.\nPandas is a Python library specialized for data manipulation and analysis, and it is very commonly used among\ndata scientists. It offers a variety of methods, which allows data scientists",
+        "metadata": {
+          "page": 27,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "char_end": 950,
+          "char_count": 1976,
+          "char_start": 450,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 27,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.12446217987166608,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "df7584365d79b7a5c3b2d50a",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 45,
+        "text": "ode is guaranteed to run sequentially from the top.\nPython Pandas\nOne of the strengths of Python is that it includes a variety of free, open-source libraries. Libraries are a set of\nalready-implemented methods that a programmer can refer to, allowing a programmer to avoid building\ncommon functions from scratch.\nPandas is a Python library specialized for data manipulation and analysis, and it is very commonly used among\ndata scientists. It offers a variety of methods, which allows data scientists",
+        "metadata": {
+          "page": 45,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 950,
+          "char_count": 1976,
+          "char_start": 450,
+          "chunk_index": 1,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 45,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.12446217987166608,
+        "is_hit": true
+      },
+      {
+        "chunk_id": "ab14ed8bce7087df7e3cd569",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 40,
+        "text": "thon libraries named Pandas\nand Matplotlib. These libraries are specialized for data analysis and data visualization, respectively.\n30 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 40,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 2902,
+          "char_count": 2902,
+          "char_start": 2700,
+          "chunk_index": 6,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 40,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1447381800725246,
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test_05",
+    "split": "test",
+    "hit_1": false,
+    "hit_3": false,
+    "traces": [
+      {
+        "chunk_id": "ab14ed8bce7087df7e3cd569",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 40,
+        "text": "thon libraries named Pandas\nand Matplotlib. These libraries are specialized for data analysis and data visualization, respectively.\n30 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 40,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.5",
+          "char_end": 2902,
+          "char_count": 2902,
+          "char_start": 2700,
+          "chunk_index": 6,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 40,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.12590854609557556,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "21ffe735255766b2f994145b",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 22,
+        "text": "thon libraries named Pandas\nand Matplotlib. These libraries are specialized for data analysis and data visualization, respectively.\n30 1 • What Are Data and Data Science?\nAccess for free at openstax.org",
+        "metadata": {
+          "page": 22,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.2",
+          "char_end": 2902,
+          "char_count": 2902,
+          "char_start": 2700,
+          "chunk_index": 6,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 22,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.12590854609557556,
+        "is_hit": false
+      },
+      {
+        "chunk_id": "ec9965a2555194a8070e901f",
+        "document_id": "openstax_data_science",
+        "source": "openstax",
+        "page": 39,
+        "text": "Visualize Data Using Python Matplotlib\nThere are multiple ways to draw plots of data in Python. The most common and straightforward way is to\nimport another library, Matplotlib, which is specialized for data visualization. Matplotlib is a huge library,\nand to draw the plots you only need to import a submodule named pyplot.\nType the following import statement in a new cell. Note it is convention to denote matplotlib.pyplot with\nplt, similarly to denoting Pandas with pd.\nimport matplotlib.pyplot a",
+        "metadata": {
+          "page": 39,
+          "status": "needs_review",
+          "chapter": "Chapter 1",
+          "section": "1.4",
+          "char_end": 500,
+          "char_count": 1398,
+          "char_start": 0,
+          "chunk_index": 0,
+          "review_note": "Text extracted. Check whether the page contains useful content before counting it toward the corpus minimum.",
+          "physical_page": 39,
+          "candidate_content": true,
+          "chunking_strategy": "fixed",
+          "extraction_method": "pypdf"
+        },
+        "score": 0.1466759443283081,
+        "is_hit": false
+      }
+    ]
+  }
+]

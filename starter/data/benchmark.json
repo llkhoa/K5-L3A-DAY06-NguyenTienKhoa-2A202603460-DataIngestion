@@ -1,0 +1,202 @@
+[
+  {
+    "id": "dev_01",
+    "split": "dev",
+    "question": "What is data science?",
+    "expected_answer": "It is a field of study investigating how to collect, manage, and analyze data to retrieve meaningful information.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 19,
+    "evidence_quote": "investigates how to collect, manage, and analyze data of all types",
+    "filter": null
+  },
+  {
+    "id": "dev_02",
+    "split": "dev",
+    "question": "What disciplines did data science spread across in its earliest days?",
+    "expected_answer": "Statistics, mathematics, computer science, and social science.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 20,
+    "evidence_quote": "including statistics, mathematics, computer science, and social science",
+    "filter": null
+  },
+  {
+    "id": "dev_03",
+    "split": "dev",
+    "question": "How much time do data scientists spend on data collection and cleaning according to a 2020 survey?",
+    "expected_answer": "About half of the entire process.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 21,
+    "evidence_quote": "spend about half of the entire process in data collection and cleaning",
+    "filter": {"section": "1.1"}
+  },
+  {
+    "id": "dev_04",
+    "split": "dev",
+    "question": "How fast could Amazon items in same-day shipping facilities be made ready for delivery as of 2023?",
+    "expected_answer": "In just 11 minutes.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 23,
+    "evidence_quote": "made ready to put on a delivery truck in just 11 minutes",
+    "filter": null
+  },
+  {
+    "id": "dev_05",
+    "split": "dev",
+    "question": "What does the Internet of Things (IoT) describe?",
+    "expected_answer": "The network of multiple objects interacting with each other through the Internet.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 23,
+    "evidence_quote": "network of multiple objects interacting with each other through the Internet",
+    "filter": null
+  },
+  {
+    "id": "dev_06",
+    "split": "dev",
+    "question": "Name two smart cities that have installed data-collecting sensors to optimize energy consumption.",
+    "expected_answer": "Masdar City and Songdo.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 24,
+    "evidence_quote": "Masdar City in the United Arab Emirates and Songdo in South Korea",
+    "filter": {"section": "1.2"}
+  },
+  {
+    "id": "dev_07",
+    "split": "dev",
+    "question": "What is the goal of the Precision Medicine Initiative?",
+    "expected_answer": "To better understand how a person's genetics, environment, and lifestyle can determine the best approach to prevent or treat disease.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 25,
+    "evidence_quote": "better understanding how a person's genetics, environment, and lifestyle can help determine the best approach",
+    "filter": null
+  },
+  {
+    "id": "dev_08",
+    "split": "dev",
+    "question": "What did Ancient Egyptians invent to journal their data?",
+    "expected_answer": "A first form of paper called papyrus.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 27,
+    "evidence_quote": "invented a first form of paper-papyrus-in order to journal their data",
+    "filter": null
+  },
+  {
+    "id": "dev_09",
+    "split": "dev",
+    "question": "What type of methods is usually used to analyze quantitative data?",
+    "expected_answer": "Statistical methods.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 28,
+    "evidence_quote": "usually analyzed using statistical methods",
+    "filter": {"section": "1.3"}
+  },
+  {
+    "id": "dev_10",
+    "split": "dev",
+    "question": "How is a dataset defined in the text?",
+    "expected_answer": "A collection of observations or data entities organized for analysis and interpretation.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 29,
+    "evidence_quote": "collection of observations or data entities organized for analysis and interpretation",
+    "filter": null
+  },
+  {
+    "id": "dev_11",
+    "split": "dev",
+    "question": "Which programming language's syntax does JSON use?",
+    "expected_answer": "JavaScript.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 31,
+    "evidence_quote": "uses the syntax of a programming language named JavaScript",
+    "filter": null
+  },
+  {
+    "id": "dev_12",
+    "split": "dev",
+    "question": "How does the CSV format store each item in the dataset?",
+    "expected_answer": "In a single line.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 32,
+    "evidence_quote": "stores each item in the dataset in a single line",
+    "filter": null
+  },
+  {
+    "id": "dev_13",
+    "split": "dev",
+    "question": "In what year was Excel first released by Microsoft?",
+    "expected_answer": "1987.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 38,
+    "evidence_quote": "Excel was first released by Microsoft in 1987",
+    "filter": null
+  },
+  {
+    "id": "dev_14",
+    "split": "dev",
+    "question": "What is the R programming language more specifically designed for?",
+    "expected_answer": "Statistical computing and graphics.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 39,
+    "evidence_quote": "specifically designed for statistical computing and graphics",
+    "filter": null
+  },
+  {
+    "id": "dev_15",
+    "split": "dev",
+    "question": "What does Jupyter Notebook allow you to do interactively?",
+    "expected_answer": "Run a Python program using code, math equations, visualizations, and plain texts.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 41,
+    "evidence_quote": "run a Python program more interactively, using programming code, math equations, visualizations, and plain texts",
+    "filter": null
+  },
+  {
+    "id": "test_01",
+    "split": "test",
+    "question": "What is data visualization and what elements does it involve?",
+    "expected_answer": "A graphical way of presenting data using visual elements like charts, graphs, and maps.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 22,
+    "evidence_quote": "graphical way of presenting and reporting data to point out the patterns",
+    "filter": null
+  },
+  {
+    "id": "test_02",
+    "split": "test",
+    "question": "What statistical approach did the Oakland Athletics use to recruit and position players?",
+    "expected_answer": "Sabermetrics.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 25,
+    "evidence_quote": "statistical approach referred to as sabermetrics to recruit and position players",
+    "filter": null
+  },
+  {
+    "id": "test_03",
+    "split": "test",
+    "question": "What two subtypes can categorical data be divided into?",
+    "expected_answer": "Nominal data and ordinal data.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 29,
+    "evidence_quote": "divided into nominal data and ordinal data",
+    "filter": {"section": "1.3"}
+  },
+  {
+    "id": "test_04",
+    "split": "test",
+    "question": "What is the Python library Pandas specialized for?",
+    "expected_answer": "Data manipulation and analysis.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 45,
+    "evidence_quote": "specialized for data manipulation and analysis",
+    "filter": null
+  },
+  {
+    "id": "test_05",
+    "split": "test",
+    "question": "Which library is specialized for data visualization in Python?",
+    "expected_answer": "Matplotlib.",
+    "gold_source_id": "openstax_data_science",
+    "gold_page": 57,
+    "evidence_quote": "import another library, Matplotlib, which is specialized for data visualization",
+    "filter": null
+  }
+]

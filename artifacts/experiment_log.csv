@@ -1,0 +1,4 @@
+strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
+A,fixed,500,50,"source,page,chapter,section",none,intfloat/multilingual-e5-large,"Baseline fixed-size chunking may split semantic units across boundaries",40.0,66.67,60.0,80.0,"229 chunks; splits paragraphs randomly causing lower coherence"
+B,paragraph,1000,0,"source,page,chapter,section",none,intfloat/multilingual-e5-large,"Preserving paragraph boundaries improves semantic retrieval over fixed-size",46.67,73.33,60.0,100.0,"114 chunks; significantly improves Dev/Test Hit@3 to 73.33% and 100%"
+C,paragraph,1000,0,"source,page,chapter,section",section,intfloat/multilingual-e5-large,"Metadata filtering narrows candidate space and eliminates cross-section false positives",53.33,73.33,60.0,100.0,"Uses B chunks; boosts Dev Hit@1 from 46.67% to 53.33% (e.g. dev_09)"
